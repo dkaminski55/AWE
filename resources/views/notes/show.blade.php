@@ -21,7 +21,7 @@
             @endforeach
         </div>
     @endif
-    
+    <!--test-->
     <form method="POST" action="/notes/{{ $note->id }}/tasks">
         {{ csrf_field() }}  
         <div class="field">
@@ -38,5 +38,4 @@
         
         @include('errors')
     </form>
-    
 @endsection
